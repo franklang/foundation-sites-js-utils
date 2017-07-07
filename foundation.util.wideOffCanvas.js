@@ -2,7 +2,12 @@ jQuery(document).ready(function(){
 
   //
   // Set wider (than standard 250px) width for right off-canvas, starting from a specific
-  // breakpoint to be set as 'rightOffCanvasStart' variable value (see below).
+  // breakpoint to be set as "rightOffCanvasStart" variable value (see below).
+  
+  // "#offCanvasRight" must be replaced by your offCanvas ID
+  
+  // "#page-wrapper" has to be replaced by the HTML element that carries both class="off-canvas-content" and
+  // data-off-canvas-content="" attributes from native Foundation 6 off-canvas component.
 
   // Get some useful values first
   var globalWidth = Foundation.Box.GetDimensions(document.getElementById('globalWidth'));
