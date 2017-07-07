@@ -1,5 +1,5 @@
-// Foundation 6 MediaQueries info function
-function zfMediaQueriesInfo() {
+// Foundation 6 MediaQuery info function
+function zfMediaQueryInfo() {
   var currentSize = Foundation.MediaQuery.current;
   console.log('Current: ' + currentSize);
 
@@ -17,4 +17,4 @@ function zfMediaQueriesInfo() {
     }
   });
 }
-zfMediaQueriesInfo();
+zfMediaQueryInfo();
