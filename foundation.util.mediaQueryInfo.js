@@ -17,9 +17,9 @@ function zfMediaQueryInfo() {
    * If current breakpoint is Mobile, else is Desktop
    */
   if($.inArray(Foundation.MediaQuery.current, bpMobile) != -1){
-    alert('Mobile!');
+    console.log('Mobile!');
   } else {
-    alert('Desktop!');
+    console.log('Desktop!');
   }
   
   /*
